@@ -1,0 +1,12 @@
+<aspectj>
+    <aspects>
+        <aspect name="framework.aspects.AspectC" />
+        <aspect name="com.raf.primer1.BeforeAfterCalculate" />
+        <aspect name="com.raf.primer2.AroundAspect" />
+        <aspect name="com.raf.primer3.KonstruktorAspect" />
+        <aspect name="com.raf.primer4.GetSetAspect" />
+        <aspect name="com.raf.primer5.AnotacijaAspect" />
+    </aspects>
+    <weaver options="-verbose -showWeaveInfo -Xset:weaveJavaxPackages=true">
+    </weaver>
+</aspectj>
